@@ -1,0 +1,13 @@
+*{
+    border: 1px dotted red;
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: black;
+    color: white;
+}
+
+.home{
+    height: 840px;
+    padding-left: 50%;
+    padding-top: 50%;
+}
