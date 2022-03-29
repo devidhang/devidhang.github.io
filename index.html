@@ -5,46 +5,87 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>David Hang | Portfolio</title>
-        <link rel="stylesheet" href="portfolio.css">
+
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="portfolio.css">
 
+        <!-- Boxicons CSS -->
+        <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css'>
+        
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
             <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
         <![endif]-->
+
+        <!-- Font Awesome JS -->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+        
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+
+        <!-- Popper.JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     </head>
-    <body>
+
+    <body class="vsc-initialized" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0" cz-shortcut-listen="true">
+
+        <!-- ======= Mobile nav toggle button ======= -->
+        <i class="bi mobile-nav-toggle d-xl-none bi-list"></i>
+
+        <!-- ======= Header ======= -->
+        <header id="header">
+        <div class="d-flex flex-column">
+
+            
+            <nav id="navbar" class="nav-menu navbar">
+                <ul>
+                    <li><a href="#" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+                    <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+                    <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Skills</span></a></li>
+                    <li><a href="#projects" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
+                </ul>
+            </nav><!-- .nav-menu -->
+            
+            <div class="profile">
+                <h1>Connect</h1>
+                    <div class="social-links mt-3 justify-content-md-between">
+                    <a href="https://github.com/devidhang" class="github"><i class="bx bxl-github"></i></a>
+                    <a href="https://www.linkedin.com/in/david-b-hang/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                    <a href="mailto:david.hang419@gmail.com" class="email"><i class="bx bxs-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        </header><!-- End Header -->
+        
+
         <div class="container-fluid">
-            <div class="home">
+            <div id="home">
                 <img class="basketball" src="images/basketball_analytics_1.png" alt="basketball" width="100%">
                 <div style="background:transparent !important" class="jumbotron jumbotron-fluid">
                     <h1 style="width: auto; color:greenyellow; border-bottom: 5px solid white">DAVID HANG</h1>
-                    <p style="color:violet">Software Engineer | Web Developer | Sports Analytics Enthusiast</p>
+                    <p style="color:violet">Software Engineer | Web Developer | Sports Enthusiast</p>
                 </div>
             </div>
-            <div class="about">
+            <div id="about">
                 <h2>About</h2>
+                <p>Software Engineer and Full Stack Web Developer with over 5 years of Program Management experience. Passionate about leveraging full stack development skills to create solutions for solving problems! Sports enthusiast with a love for big data sports analytics and how it affects the culture, financial decisions, and in-game strategy in all sports.</p>
             </div>
-            <div class="skills">
+            <div id="skills">
                 <h2>Skills</h2>
             </div>
-            <div class="projects">
+            <div id="projects">
                 <h2>Projects</h2>
             </div>
         </div>
-        
-        <footer class="container-fluid">
-            <h2>Connect</h2>
-            <p>Email</p>
-            <p>LinkedIn</p>
-            <p>Github</p>
-        </footer>
     </body>
+
 </html>
