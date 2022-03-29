@@ -1,29 +1,23 @@
 *{
-    border: 1px dotted red;
+    border: 0px dotted red;
     margin: 0 auto;
     padding: 0 auto;
     background-color: black;
     color: white;
 }
 
-.navbar-nav{
-    width: 92%;
-    justify-content: right;
-}
-
-.jumbotron{
-    background-color: black;
-}
-
-.nav-item{
-    margin-right: 10%;
-    justify-content: ;
-}
-
 .home{
     height: 50%;
     padding-left: 40%;
-    padding-top: 50%;
+    padding-top: 0%;
     padding-bottom: 15%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
     background-color: black;
 }
+
