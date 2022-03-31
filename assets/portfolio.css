@@ -97,10 +97,12 @@ a:hover {
 
 #skills {
     margin-bottom: 10%;
+    color:aqua;
 }
 
 #projects {
     margin-bottom: 10%;
+    display: flex;
 }
 
 h3 {
@@ -109,7 +111,7 @@ h3 {
 }
 
 i {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 
