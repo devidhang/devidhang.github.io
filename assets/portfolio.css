@@ -119,7 +119,7 @@ a:hover {
 
 #skills ul li{
     /* display: flex; */
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 /* .tech {
@@ -147,6 +147,7 @@ a:hover {
 small {
     color: #F24A72;
     font-size: xx-small;
+    display: flex;
 }
 
 h3 {
