@@ -69,6 +69,7 @@ ul {
 
     a:hover {
         color: var(--secondary-color);
+        font-size: larger;
     }
 
 /* Hero */
@@ -140,6 +141,10 @@ ul {
         #projects ul li{
             margin-left: 0px;
         }
+    
+    #projects h5{
+        color: var(--primary-color);
+    }
 
     small {
         color: #F24A72;
@@ -165,7 +170,6 @@ ul {
     justify-content: center;
     margin-bottom: 10%;
 }
-
     .connect i {
         font-size: 50px;
         margin: 25px;
@@ -176,3 +180,28 @@ ul {
             color: #F24A72;
             font-size: 60px;
         }
+
+ /* The alert message box */
+.alert {
+padding-top: 40px;
+background-color: var(--secondary-color);
+color: black;
+margin-bottom: -30px;
+}
+
+/* The close button */
+.closebtn {
+margin-left: 15px;
+color: white;
+font-weight: bold;
+float: right;
+font-size: 22px;
+line-height: 20px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+color: black;
+} 
