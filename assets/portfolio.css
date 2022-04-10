@@ -83,6 +83,7 @@ ul {
 
     .container-fluid {
         padding: 1px 0px;
+        color: black;
     }
 
 #home{
@@ -118,12 +119,19 @@ ul {
     #skills ul{
         display: flex;
         justify-content: flex-start;
+        width: 50px;
     }
 
         #skills ul li{
             /* display: flex; */
-            /* justify-content: center; */
+            justify-content: center;
+            align-items: center;
+            margin-right: 40%;
         }
+        
+        #skills ul li i bx{
+                justify-content: auto;
+            }
 
 /* PROJECTS */
 #projects {
