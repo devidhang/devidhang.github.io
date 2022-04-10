@@ -222,7 +222,7 @@ nav ul {
  /* The alert message box */
 .alert {
 padding-top: 40px;
-background-color: var(--secondary-color);
+background-color: #F24A72;
 color: black;
 margin-bottom: -30px;
 }
