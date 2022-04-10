@@ -23,7 +23,7 @@ html {
     max-width: 1920px;
 }
 
-/* Navbar */
+/* NAVBAR */
 nav {
     margin-top: -25px;
     padding-left: 10px;
@@ -39,16 +39,10 @@ nav {
     background-color: black;
 }
 
-nav h1{
-    font-size: 30px;
-}
+    nav h1{
+        font-size: 30px;
+    }
 
-ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 13px;
-}
 
 .nav-item {
     margin-left: 2rem;
@@ -58,18 +52,24 @@ ul {
     font-weight: var(--bold-font);
 }
 
-ul li {
-    list-style-type: none;
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
 }
+    ul li {
+        list-style-type: none;
+    }
 
-a {
-    text-decoration: none;
-    color: var(--primary-color);
-}
+    a {
+        text-decoration: none;
+        color: var(--primary-color);
+    }
 
-a:hover {
-    color: var(--secondary-color);
-}
+    a:hover {
+        color: var(--secondary-color);
+    }
 
 /* Hero */
 .container {
@@ -80,9 +80,9 @@ a:hover {
     height: 100vh;
 }
 
-.container-fluid {
-    padding: 1px 0px;
-}
+    .container-fluid {
+        padding: 1px 0px;
+    }
 
 #home{
     padding-left: 32%;
@@ -101,10 +101,12 @@ a:hover {
     color: #E6D5B8
 }
 
+/* ABOUT */
 #about{
     margin-bottom: 10%;
 }
 
+/* SKILLS */
 #skills {
     margin-bottom: 10%;
     color: #F24A72;
@@ -112,22 +114,17 @@ a:hover {
     /* display: flex; */
 }
 
-#skills ul{
-    display: flex;
-    justify-content: flex-start;
-}
+    #skills ul{
+        display: flex;
+        justify-content: flex-start;
+    }
 
-#skills ul li{
-    /* display: flex; */
-    /* justify-content: center; */
-}
+        #skills ul li{
+            /* display: flex; */
+            /* justify-content: center; */
+        }
 
-/* .tech {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
+/* PROJECTS */
 #projects {
     margin-bottom: 10%;
     margin-left: 0px;
@@ -135,44 +132,47 @@ a:hover {
     /* display: flex; */
 }
 
-#projects ul {
-    margin-left: -15px;
-    padding-left: 20px;
-}
+    #projects ul {
+        margin-left: -15px;
+        padding-left: 20px;
+    }
 
-#projects ul li{
-    margin-left: 0px;
-}
+        #projects ul li{
+            margin-left: 0px;
+        }
 
-small {
-    color: #F24A72;
-    font-size: xx-small;
+    small {
+        color: #F24A72;
+        font-size: xx-small;
+        display: flex;
+    }
+
+    h3 {
+        border-bottom:5px solid #0A516D;
+        color:#018790;
+        padding-bottom: 5px;
+    }
+
+    i {
+        width: 50px;
+        font-size: 30px;
+    }
+
+/* CONNECT */
+.connect {
     display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-bottom: 10%;
 }
 
-h3 {
-    border-bottom:5px solid #0A516D;
-    color:#018790;
-    padding-bottom: 5px;
-}
+    .connect i {
+        font-size: 50px;
+        margin: 25px;
+        color:#018790;
+    }
 
-i {
-    width: 50px;
-    font-size: 30px;
-}
-
-/* Projects */
-/* #card-deck {
-    display: flex;
-} */
-
-/* Footer */
-footer {
-    padding-top: 0%;
-    display: flex;
-}
-
-footer h2{
-    padding-left: 15px;
-    color:#018790;
-}
+        .connect i:hover {
+            color: #F24A72;
+            font-size: 60px;
+        }
