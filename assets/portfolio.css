@@ -119,9 +119,9 @@ nav ul {
 
 #skills ul{
     display: flex;
-        justify-content: flex-start;
-        width: 50px;
-        align-items: center;
+    justify-content: flex-start;
+    width: 50px;
+    align-items: center;
     }
 
         #skills ul li{
